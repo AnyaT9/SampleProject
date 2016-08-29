@@ -34,7 +34,7 @@ public class FindMethods extends WebDriverConfig{
 		WebElement myElement = null;
 		
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(myDriver)
-                .withTimeout(1, TimeUnit.SECONDS)
+                .withTimeout(30, TimeUnit.SECONDS)
                 .pollingEvery(500, TimeUnit.MILLISECONDS)
                 .ignoring(NoSuchElementException.class);
 		
