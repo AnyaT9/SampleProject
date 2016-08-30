@@ -36,14 +36,14 @@ public abstract class WebDriverConfig {
 	private final static String systemArchitecture = System.getProperty("os.arch");
 	
 	private final static String currentDirectory = System.getProperty("user.dir");
-	private final static String fileSeparator = System.getProperty("file.separator");
+	private final static String fileSeparator = System.getProperty("file.separator"); 
 	
 	
 	
 	public static WebDriver myDriver = null;
 	
 	/*
-	 * Open a WebDriver to run the test
+	 * Open a WebDriver to run the test 
 	 */
 	public static void openDriver(){
 		
