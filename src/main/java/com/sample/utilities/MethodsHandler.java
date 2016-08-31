@@ -3,8 +3,12 @@
  */
 package com.sample.utilities;
 
+
 import com.sample.activities.ClickMethods;
 import com.sample.activities.CompareMethods;
+import com.sample.activities.InputMethod;
+import com.sample.activities.DatePicker;
+
 
 /**
  * @author arafatmamun
@@ -54,4 +58,24 @@ public abstract class MethodsHandler {
 		CompareMethods compareMethods = new CompareMethods();
 		return compareMethods;
 	}
+	
+	public InputMethod inputMethod(){
+		InputMethod inputMethod = new InputMethod();
+		return inputMethod;
+	}
+	
+	/*
+	 * 
+	 * This method return Date Picker Object.
+	 * Ataul
+	 * 8-17-2016 24:26
+	 */
+	
+	public DatePicker datePickerMethods(){		
+		DatePicker picker = new DatePicker();
+		return picker;		
+	}
+	
+	
+	
 }

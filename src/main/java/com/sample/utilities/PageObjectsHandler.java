@@ -3,9 +3,11 @@
  */
 package com.sample.utilities;
 
+import com.sample.pageObjects.Cars;
 import com.sample.pageObjects.Header;
 import com.sample.pageObjects.Home;
 import com.sample.pageObjects.Hotels;
+import com.sample.activities.InputMethod;
 
 /**
  * @author arafatmamun
@@ -36,4 +38,15 @@ public abstract class PageObjectsHandler {
 		Hotels hotels = new Hotels();
 		return hotels;
 	}
+	
+	/*
+	 * ObjectFor Cars Page
+	 */
+	public static Cars cars(){
+		Cars cars = new Cars();
+		return cars;
+	}
+	
+	
+	
 }

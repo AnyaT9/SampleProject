@@ -128,8 +128,8 @@ public abstract class WebDriverConfig {
 	 */
 	public static void closeDriver(){
 		
-		myDriver.close();
-		myDriver.quit();
+		//myDriver.close();
+		//myDriver.quit();
 	}
 	
 }

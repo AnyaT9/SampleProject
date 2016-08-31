@@ -26,6 +26,14 @@ public class Header extends MethodsHandler{
 	}
 	
 	/*
+	 * Verify Cars Link Text
+	 */
+	public void verifyCarsLinkText(String linkText){
+		compare().assertValue(linkText, getXpath(), carsLink);
+	}
+	
+	
+	/*
 	 * Click On Hotels Header Link
 	 */
 	public void clickOnHotelsLink(){
