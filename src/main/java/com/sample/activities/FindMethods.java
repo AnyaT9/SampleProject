@@ -29,7 +29,7 @@ public class FindMethods extends WebDriverConfig{
 	 * 		locator : id / classname / name / xpath / css / link text of element to be found
 	 * 		attributeOfLocator : locator string
 	 */
-	public  WebElement getElement(String locator, String attributeOfLocator)throws TimeoutException{
+	public  WebElement getElement(String locator, String attributeOfLocator){
 		
 		WebElement myElement = null;
 		

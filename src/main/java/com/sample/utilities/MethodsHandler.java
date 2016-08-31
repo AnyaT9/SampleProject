@@ -5,6 +5,9 @@ package com.sample.utilities;
 
 import com.sample.activities.ClickMethods;
 import com.sample.activities.CompareMethods;
+import com.sample.activities.DatePicker;
+import com.sample.activities.DropDownMethods;
+import com.sample.activities.InputMethods;
 
 /**
  * @author arafatmamun
@@ -54,4 +57,31 @@ public abstract class MethodsHandler {
 		CompareMethods compareMethods = new CompareMethods();
 		return compareMethods;
 	}
+	
+	/*
+	 * this method will click and enter data in input fields
+	 */
+	public InputMethods input(){
+		InputMethods input = new InputMethods();
+		return input;
+	}
+	
+	/*
+	 * this method will pick one date from calender
+	 */
+	
+	public DatePicker datePicker(){
+		DatePicker datePicker = new DatePicker();
+		return datePicker;
+	}
+	
+	/*
+	 * this method will select a value from drop down box
+	 */
+	
+	public DropDownMethods dropDown(){
+		DropDownMethods dropDown = new DropDownMethods();
+		return dropDown;
+	}
+	
 }

@@ -3,8 +3,6 @@
  */
 package com.sample.activities;
 
-import java.util.concurrent.TimeoutException;
-
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 
@@ -30,8 +28,6 @@ public class CompareMethods extends FindMethods{
 			Assert.fail("Null Pointer Exception!");
 		} catch( AssertionError exc){
 			Assert.fail("Assertion Error!");
-		} catch(TimeoutException exc){
-			Assert.fail("Time Out Execption!");
 		}
 	}
 	

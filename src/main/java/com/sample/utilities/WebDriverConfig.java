@@ -3,7 +3,6 @@
  */
 package com.sample.utilities;
 
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -72,7 +71,7 @@ public abstract class WebDriverConfig {
 				System.out.println("No Driver Found!");
 			}
 			
-		} else if( isUnix()){
+		} else if(isUnix()){
 			
 			driverPath = driverPath + "UnixWebDrivers" + fileSeparator;
 			if(driverName.equalsIgnoreCase("chrome")){

@@ -3,6 +3,7 @@
  */
 package com.sample.utilities;
 
+import com.sample.pageObjects.Flights;
 import com.sample.pageObjects.Header;
 import com.sample.pageObjects.Home;
 import com.sample.pageObjects.Hotels;
@@ -36,4 +37,15 @@ public abstract class PageObjectsHandler {
 		Hotels hotels = new Hotels();
 		return hotels;
 	}
+	
+	/*
+	 * Object For Flights Page
+	 */
+	public static Flights flights(){
+		Flights flights = new Flights();
+		return flights;
+	}
+	
+	
+	
 }

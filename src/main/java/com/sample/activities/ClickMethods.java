@@ -3,8 +3,6 @@
  */
 package com.sample.activities;
 
-import java.util.concurrent.TimeoutException;
-
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -31,8 +29,6 @@ public class ClickMethods extends FindMethods{
 			Assert.fail("No Such Element Execption!");
 		} catch(NullPointerException exc){
 			Assert.fail("Null Pointer Exception!");
-		}  catch(TimeoutException exc){
-			Assert.fail("Time Out Execption!");
 		}
 	}
 }

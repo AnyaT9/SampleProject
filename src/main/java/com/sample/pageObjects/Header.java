@@ -41,5 +41,13 @@ public class Header extends MethodsHandler{
 		click().clickOnElement(getXpath(), carsLink);
 	}
 	
+	/*
+	 * Click On Header Link "Flights"
+	 */
+	public void clickOnHeaderLinkFlight(){
+		
+		click().clickOnElement(getXpath(), flightslLink);
+	}
+	
 	
 }

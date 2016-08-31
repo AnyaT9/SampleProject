@@ -14,10 +14,11 @@ import cucumber.api.junit.Cucumber;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = {"@Header"},
-		features = {"src/test/resources/"},
-		glue ="com/sample/testSteps"
+		tags = {"@Flights"},
+		features = {"src/test/resources/flight.feature"},
+		glue ="com.sample.testSteps"
 		)
 public class runTest {
 
 }
+
