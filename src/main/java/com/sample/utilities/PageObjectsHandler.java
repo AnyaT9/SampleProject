@@ -5,6 +5,7 @@ package com.sample.utilities;
 
 import com.sample.pageObjects.Header;
 import com.sample.pageObjects.Home;
+import com.sample.pageObjects.HotelSort;
 import com.sample.pageObjects.Hotels;
 
 /**
@@ -35,5 +36,9 @@ public abstract class PageObjectsHandler {
 	public static Hotels hotels(){
 		Hotels hotels = new Hotels();
 		return hotels;
+	}
+	public static HotelSort sort(){
+		HotelSort sort = new HotelSort();
+		return sort;
 	}
 }

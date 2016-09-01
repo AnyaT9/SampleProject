@@ -5,6 +5,7 @@ package com.sample.utilities;
 
 import com.sample.activities.ClickMethods;
 import com.sample.activities.CompareMethods;
+import com.sample.activities.InputMethods;
 
 /**
  * @author arafatmamun
@@ -38,7 +39,6 @@ public abstract class MethodsHandler {
 		return linkText;
 	}
 	
-	
 	/*
 	 * Object for Click Methods
 	 */
@@ -53,5 +53,15 @@ public abstract class MethodsHandler {
 	public CompareMethods compare(){
 		CompareMethods compareMethods = new CompareMethods();
 		return compareMethods;
+	}
+	/*
+	 * Object for input Methods
+	 * by arko
+	 */
+	
+	public InputMethods input(){
+		InputMethods input = new InputMethods();
+		return input;
+	
 	}
 }
