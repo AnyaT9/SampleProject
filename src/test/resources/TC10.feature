@@ -5,3 +5,4 @@
 		When Click on Hotel link from Header
 		And Enter "London" as valid City
 		And Click on Search for Hotels
+		
