@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = {"@Header"},
+		tags = {"@newWindow"},
 		features = {"src/test/resources/"},
 		glue ="com/sample/testSteps"
 		)

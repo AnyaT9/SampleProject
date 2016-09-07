@@ -5,6 +5,8 @@ package com.sample.utilities;
 
 import com.sample.activities.ClickMethods;
 import com.sample.activities.CompareMethods;
+import com.sample.activities.FindMethods;
+import com.sample.activities.WindowHandlerMethods;
 
 /**
  * @author arafatmamun
@@ -38,6 +40,13 @@ public abstract class MethodsHandler {
 		return linkText;
 	}
 	
+	/*
+	 * Object for Find Methods
+	 */
+	public FindMethods find(){
+		FindMethods findMethods = new FindMethods();
+		return findMethods;
+	}
 	
 	/*
 	 * Object for Click Methods
@@ -53,5 +62,13 @@ public abstract class MethodsHandler {
 	public CompareMethods compare(){
 		CompareMethods compareMethods = new CompareMethods();
 		return compareMethods;
+	}
+	
+	/*
+	 * Object for window Handler Methods
+	 */
+	public WindowHandlerMethods windowHandler(){
+		WindowHandlerMethods windowHandlerMethods = new WindowHandlerMethods();
+		return windowHandlerMethods;
 	}
 }
