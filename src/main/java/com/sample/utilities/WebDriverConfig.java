@@ -26,8 +26,8 @@ public abstract class WebDriverConfig {
 	/*
 	 * URL of the Site to be tested
 	 */
-	private static String siteUrl = "https://www.priceline.com/";
-	
+	//private static String siteUrl = "https://www.priceline.com/";
+	private static String siteUrl = "http://www.w3schools.com/html/html_iframe.asp";
 	/*
 	 * System Informations
 	 */

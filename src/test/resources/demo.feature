@@ -20,3 +20,4 @@ Feature: Test allure English
 	      |     6 |      6 |  14 |
 	      |     5 |     10 |  15 |
 	      |     7 |      9 |  16 |
+	
