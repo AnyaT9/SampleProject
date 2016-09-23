@@ -38,4 +38,9 @@ public class TC001Steps extends PageObjectsHandler{
 		
 		hotels().verifyPageTitle(title);
 	}
+	
+	@When("^Run my test$")
+	public void run_my_test() {
+	   
+	}
 }

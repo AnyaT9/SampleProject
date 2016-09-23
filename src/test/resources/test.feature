@@ -8,3 +8,9 @@ Feature: Test Diffrent Methods
 		And Close the current window
 		And Switch to default window where title is "HTML Iframes"
 		
+	
+	@TestCucumber
+	Scenario: Test Cucumber
+		When Run my test
+		
+		
